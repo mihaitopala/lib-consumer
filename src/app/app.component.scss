@@ -1,0 +1,18 @@
+.main-wrapper {
+  margin: 10px;
+
+  .button-icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .buttons-filled,
+  .buttons-outlined,
+  .buttons-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
