@@ -10,7 +10,12 @@
     <alvys-button-filled size="small">Button</alvys-button-filled>
   </div>
   <div class="buttons-outlined">
-    <alvys-button-outlined>Button</alvys-button-outlined>
+    <alvys-button-outlined>
+      <div class="button-icon-wrapper">
+        <span>Button</span>
+        <mat-spinner [diameter]="17"></mat-spinner>
+      </div>
+    </alvys-button-outlined>
     <alvys-button-outlined [disabled]="true">Button</alvys-button-outlined>
     <alvys-button-outlined size="small" color="warn"
       >Button</alvys-button-outlined
